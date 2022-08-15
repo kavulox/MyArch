@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -e "d\nd\nd\nd\n\n\nw" | fdisk /dev/sda
 echo -e "n\np\n1\n\n+1G\nw" | fdisk /dev/sda
 echo -e "n\np\n2\n\n\nw" | fdisk /dev/sda
